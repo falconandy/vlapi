@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/VolantMQ/vlapi/plugin/persistence"
-	"github.com/coreos/bbolt"
+	bbolt "github.com/coreos/bbolt"
 )
 
 type sessions struct {

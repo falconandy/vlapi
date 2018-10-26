@@ -9,7 +9,7 @@ import (
 
 	"github.com/VolantMQ/vlapi/plugin"
 	"github.com/VolantMQ/vlapi/plugin/persistence"
-	"github.com/coreos/bbolt"
+	bbolt "github.com/coreos/bbolt"
 )
 
 var (
